@@ -7,13 +7,14 @@ To quickly test with a specific method, pass the configuration file path via the
 ```Bash
 # Template
 python main.py --config ./exps/<method_name>.json
-```Examples:
-
-Run with BiC:
+```
+**Examples**:
+Run with **BiC**:
 ```Bash
 python main.py --config ./exps/bic.json
 ```
-Run with ACIL:
+
+Run with **ACIL**:
 ```Bash
 python main.py --config ./exps/acil.json
 ```
