@@ -1,0 +1,17 @@
+{
+    "prefix": "reproduce",
+    "dataset": "plaid",
+    "memory_size": 400,
+    "memory_per_class": 5,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 15,
+    "model_name": "icarl",
+    "convnet_type": "resnet20",
+    "in_channels": 3,
+    "feat_dim": 64,
+    "device": ["0"],
+    "seed": [2]
+}
+
